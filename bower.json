@@ -15,7 +15,7 @@
   "private": true,
   "ignore": [],
   "dependencies": {
-    "iron-location": "PolymerElements/iron-location#1 - 2",
+    "iron-location": "https://github.com/mgibas/iron-location.git#master",
     "polymer": "Polymer/polymer#1.9 - 2"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
   "variants": {
     "1.x": {
       "dependencies": {
-        "iron-location": "polymerelements/iron-location#^0.8.1",
+        "iron-location": "https://github.com/mgibas/iron-location.git#master",
         "polymer": "Polymer/polymer#^1.9"
       },
       "devDependencies": {
@@ -61,6 +61,7 @@
     }
   },
   "resolutions": {
-    "webcomponentsjs": "^1.0.0"
+    "webcomponentsjs": "^1.0.0",
+    "iron-location": "master"
   }
 }
